@@ -89,16 +89,15 @@ footer img{
     margin-left: 65px;
 }
 @media (max-width: 500px) {
-    footer{
-        display: table-footer-group;
-        justify-content: center;
-    }
-    footer div{
+    body{
         
-        margin-left: 50px;
-        margin-top: -75px;
     }
+    footer{
+        display: inline-block;
+    }
+    
     footer img{
-        margin-top: 50px;
+        margin: 10px;
     }
+
 }

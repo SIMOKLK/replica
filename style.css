@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    display: flex;
+    width: 100%;
+    position: absolute;
+}
+.caja1{
+    background-color: #DB5461;
+    clip-path: polygon(0 0, 88% 0, 100% 100%, 0% 100%);
+    width: 59%;
+    height: 550px;
+    position: absolute;
+}
+.caja1 img{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 150px;
+}
+
+.caja1 h2{
+    margin-top: 100px;
+    margin-left: 50px;
+    color: white;
+    
+
+}
+.caja1 span{
+    color: black;
+}
+.caja1 button{
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.caja2 img{
+    width: 100%;
+    height: 547px;
+    clip-path:polygon(0 0, 100% 0, 100% 100%, 13% 100%)
+}
+.caja2{
+   width: 48%;
+   position: absolute;
+   right: 0;
+   display: flex;
+}
+.caja2 nav{
+    display: flex;
+    padding: 5px 10px;
+    position: absolute;
+    margin-top: 60px;
+    background: white;
+  
+}
+.caja2 nav ul{
+    list-style: none;
+    justify-content: flex-end;
+    display: flex;
+    
+}
+.caja2 nav ul li{
+    margin: 10px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #30343F;
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+.hola,.hola2,.hola3{
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 35px 5px;
+}
+
+footer img{
+    width: 40px;
+    float: left;
+    margin-left: 65px;
+}
+@media (max-width: 500px) {
+    footer{
+        display: table-footer-group;
+        justify-content: center;
+    }
+    footer div{
+        
+        margin-left: 50px;
+        margin-top: -75px;
+    }
+    footer img{
+        margin-top: 50px;
+    }
+}

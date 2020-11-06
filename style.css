@@ -105,6 +105,16 @@ footer img{
     body{
         overflow-x: scroll;
     }
+    .contenedor{
+        width: 100%;
+        background: #DB5461;
+    }
+    .contenedor .caja1{
+
+    }
+    .contenedor .caja2{
+        
+    }
     footer{
         display: inline-block;
     }

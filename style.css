@@ -103,7 +103,7 @@ footer img{
     }
 @media (max-width: 500px) {
     body{
-        overflow-x: scroll;
+        
     }
     footer{
         display: inline-block;

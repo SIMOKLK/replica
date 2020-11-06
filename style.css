@@ -117,8 +117,20 @@ footer img{
         display: block;
         background: #DB5461;
     }
+<<<<<<< HEAD
     .contenedor .caja2{
         display: none;
+=======
+    .contenedor{
+        width: 100%;
+        background: #DB5461;
+    }
+    .contenedor .caja1{
+
+    }
+    .contenedor .caja2{
+        
+>>>>>>> 69e4afb8dee8eda4d466c977522ee381ad1f05cf
     }
     footer{
         display: inline-block;

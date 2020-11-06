@@ -102,8 +102,17 @@ footer img{
     margin-right: 10px;
     }
 @media (max-width: 500px) {
-    body{
+    .contenedor .caja1{
+        position: relative;
+        width: 100%;
+
+
+
         
+    } 
+    .contenedor{
+        display: block;
+        background: #DB5461;
     }
     footer{
         display: inline-block;

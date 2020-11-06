@@ -75,6 +75,9 @@
     margin: 10px;
     font-weight: bold;
 }
+.menu{
+    display: none;
+}
 footer{
     position: fixed;
     bottom: 0;
@@ -107,23 +110,50 @@ footer img{
         position: relative;
         width: 100%;
 
-
-
         
     } 
+    
     .contenedor{
         display: block;
         background: #DB5461;
     }
+    .contenedor .caja2{
+        display: none;
+    }
     footer{
         display: inline-block;
     }
-    footer div{
-        display: block;
+    footer .hola,.hola2,.hola3{
+        display: table-row;
+    
     }
     
     footer img{
         margin: 10px;
     }
+    .menu{
+        display: inline;
+    }
+    .contenedor nav{
+        display: none;
+    }
+    i{
+        display: flex;
+        margin:8px;
 
+
+        
+    }
+    .contenedor .menu {
+        top: 0;
+        position: absolute;
+        right: 0;
+        margin-top: 50px;
+        margin-right: 30px;
+        border-radius: 5px;
+    }
+    .contenedor .menu:hover{
+        display: absolute;
+
+    }
 }

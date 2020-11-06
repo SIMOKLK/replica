@@ -101,10 +101,19 @@ footer img{
     width: 40px;
     margin-right: 10px;
     }
-    
+
 @media (max-width: 500px) {
-    body{
-        overflow-x: scroll;
+    .contenedor .caja1{
+        position: relative;
+        width: 100%;
+
+
+
+        
+    } 
+    .contenedor{
+        display: block;
+        background: #DB5461;
     }
     footer{
         display: inline-block;

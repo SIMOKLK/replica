@@ -101,6 +101,7 @@ footer img{
     width: 40px;
     margin-right: 10px;
     }
+    
 @media (max-width: 500px) {
     body{
         overflow-x: scroll;
